@@ -1,0 +1,14 @@
+{
+  "token": "",
+  "secret_key": "",
+  "confirmation_code": "",
+  "api_server": "https://api.vk.com/method/",
+  "api_version": "5.103",
+  "db": {
+    "server": "",
+    "user": "",
+    "base": "",
+    "pass": ""
+  },
+  "mat": []
+}
