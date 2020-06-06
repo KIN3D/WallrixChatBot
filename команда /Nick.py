@@ -7,7 +7,7 @@ class NickCommand(BaseCommand):
     def onCommand(self):
         if len(self.args) == 0:
             self.dialog.msg(text=getError("nickError"))
-        if self.args[0].lower() == 'установить':
+        if self.args[0].lower() == 'уст':
             newNick = self.args[1]
             self.sender.setNick(newNick)
             self.sender.refreshInfo()
